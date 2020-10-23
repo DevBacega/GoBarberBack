@@ -2,6 +2,11 @@ import { Response, Request } from 'express';
 import { container } from 'tsyringe';
 import CreateUserService from '@modules/users/services/CreateUserService';
 
+interface IUser {
+    name: string;
+    email: string;
+    password?: string;
+}
 export default class UsersController {
     public async create(
         request: Request,
@@ -11,7 +16,7 @@ export default class UsersController {
 
         const createUser = container.resolve(CreateUserService);
 
-        const user = await createUser.execute({
+        const user: IUser = await createUser.execute({
             name,
             email,
             password,
