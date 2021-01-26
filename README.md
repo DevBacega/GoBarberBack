@@ -37,8 +37,8 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 ------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------
-## Funcionalidades em Desenvolvimento
- - [ ] **Recuperação de Senha**
+## Funcionalidades em Desenvolvimento (Obs: Uma RN deve sempre estar relacinada a um RF caso não, esta faltando uma  )
+- [ ] **Recuperação de Senha**
 	 - Requisitos Funcionais (*funcionalidades do sistema.*)
 		 - [ ] O usuário deve poder recuperar sua senha informando o seu e-mail;
 		 - [ ] O usuário deve receber um e-mail com instruções de recuperação de senha
@@ -51,7 +51,7 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 		 - [ ] O link enviado por e-mail para resetar senha, deve expirar em 2h;
 		 - [ ] O usuário precisa confirmar a nova senha ao resetar sua senha;
  - [ ] **Atualização do Perfil**
-	  - Requisitos Funcionais (*funcionalidades do sistema.*)
+	 - Requisitos Funcionais (*funcionalidades do sistema.*)
 		 - [ ] O usuário deve poder atualizar o seu nome, email, senha;
 	 - Requisitos não Funcionais(*tecnologias a serem usadas*)
 			NA
@@ -64,7 +64,7 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 		 - [ ] O usuário deve poder listar seus agendamentos de um dia especifico;
 		 - [ ] O prestador deve receber uma notificação sempre que houver um novo agendamento;
 		 - [ ] O prestador deve poder visualizar as notificações não lidas;
-	 - Requisitos não Funcionais(*tecnologias a serem usadas*)
+	  - Requisitos não Funcionais(*tecnologias a serem usadas*)
 		 - [ ] Os agendamentos dos prestadores no dia devem ser armazenados em cache;
 		 - [ ] As notificações do prestador devem ser armazenadas no MongoDB;
 		 - [ ] As notificações do prestador devem ser enviadas em tempo-real utilizando Socket.io;
@@ -80,7 +80,7 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 		 - [ ] A listagem de prestadores deve ser armazenada em cache;
 	 - Regra de Negocio(*Regras a serem seguidas*)
 		 - [ ] Cada agendamento deve durar 1h exatamente;
-		 - [ ] Os agendamentos devem estar disponíveis entre as 8h às 18h (Primeiro as 18h, último às 17h)
+		 - [ ] Os agendamentos devem estar disponíveis entre as 8h às 18h (Primeiro as 8h, último às 17h)
 		 - [ ] O usuário não pode agendar em um horário já ocupado.
 		 - [ ] O usuário não pode agendar em um horário que já passou;
 		 - [ ] O usuário não pode agendar serviços consigo mesmo;
