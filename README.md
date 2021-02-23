@@ -38,18 +38,18 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 ------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------
 ## Funcionalidades em Desenvolvimento (Obs: Uma RN deve sempre estar relacinada a um RF caso não, esta faltando uma  )
-- [ ] **Recuperação de Senha**
+- [X] **Recuperação de Senha**
 	 - Requisitos Funcionais (*funcionalidades do sistema.*)
-		 - [ ] O usuário deve poder recuperar sua senha informando o seu e-mail;
-		 - [ ] O usuário deve receber um e-mail com instruções de recuperação de senha
-		 - [ ] O usuário deve poder resetar sua senha;
+		 - [X] O usuário deve poder recuperar sua senha informando o seu e-mail;
+		 - [X] O usuário deve receber um e-mail com instruções de recuperação de senha
+		 - [X] O usuário deve poder resetar sua senha;
 	 - Requisitos não Funcionais(*tecnologias a serem usadas*)
-		 - [ ] Utilizar *Mailtrap* para testar envios em ambiente de dev;
-		 - [ ] Utilizar o *Amazon SES* para envios em produção;
-		 - [ ] O envio de e-mails deve acontecer em segundo plano (background job);
+		 - [X] Utilizar *Mailtrap* para testar envios em ambiente de dev;
+		 - [X] Utilizar o *Amazon SES* para envios em produção;
+		 - [X] O envio de e-mails deve acontecer em segundo plano (background job);
 	 - Regra de Negocio(*Regras a serem seguidas*)
-		 - [ ] O link enviado por e-mail para resetar senha, deve expirar em 2h;
-		 - [ ] O usuário precisa confirmar a nova senha ao resetar sua senha;
+		 - [X] O link enviado por e-mail para resetar senha, deve expirar em 2h;
+		 - [X] O usuário precisa confirmar a nova senha ao resetar sua senha;
  - [ ] **Atualização do Perfil**
 	 - Requisitos Funcionais (*funcionalidades do sistema.*)
 		 - [ ] O usuário deve poder atualizar o seu nome, email, senha;
