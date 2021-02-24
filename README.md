@@ -37,7 +37,7 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 ------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------
-## Funcionalidades em Desenvolvimento (Obs: Uma RN deve sempre estar relacinada a um RF caso não, esta faltando uma  )
+## Funcionalidades em Desenvolvimento (Obs: Uma RN deve sempre estar relacionada a um RF caso não, esta faltando uma  )
 - [X] **Recuperação de Senha**
 	 - Requisitos Funcionais (*funcionalidades do sistema.*)
 		 - [X] O usuário deve poder recuperar sua senha informando o seu e-mail;
@@ -52,13 +52,13 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 		 - [X] O usuário precisa confirmar a nova senha ao resetar sua senha;
  - [ ] **Atualização do Perfil**
 	 - Requisitos Funcionais (*funcionalidades do sistema.*)
-		 - [ ] O usuário deve poder atualizar o seu nome, email, senha;
+		 - [X] O usuário deve poder atualizar o seu nome, email, senha;
 	 - Requisitos não Funcionais(*tecnologias a serem usadas*)
 			NA
 	 - Regra de Negocio(*Regras a serem seguidas*)
-		 - [ ] O usuário não pode alterar seu email para um e-mail já utilizado;
-		 - [ ] Para atualizar sua senha, o usuário deve informar a senha antiga;
-		 - [ ] Para atualizar sua senha, o usuário deve confirmar sua nova senha;
+		 - [X] O usuário não pode alterar seu email para um e-mail já utilizado;
+		 - [X] Para atualizar sua senha, o usuário deve informar a senha antiga;
+		 - [X] Para atualizar sua senha, o usuário deve confirmar sua nova senha;
  - [ ] **Painel do prestador**
 	  - Requisitos Funcionais (*funcionalidades do sistema.*)
 		 - [ ] O usuário deve poder listar seus agendamentos de um dia especifico;
