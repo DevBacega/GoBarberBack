@@ -13,14 +13,14 @@ import '@modules/users/providers';
 import './providers';
 
 container.registerSingleton<IAppointmentsRepository>(
-    'AppointmentsRepository',
-    AppointmentsRepository,
+  'AppointmentsRepository',
+  AppointmentsRepository,
 );
 container.registerSingleton<IUsersRepository>(
-    'UsersRepository',
-    UsersRepository,
+  'UsersRepository',
+  UsersRepository,
 );
 container.registerSingleton<IUserTokensRepository>(
-    'UserTokensRepository',
-    UserTokensRepository,
+  'UserTokensRepository',
+  UserTokensRepository,
 );

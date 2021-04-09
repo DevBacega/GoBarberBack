@@ -79,8 +79,8 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 	 - Requisitos não Funcionais(*tecnologias a serem usadas*)
 		 - [ ] A listagem de prestadores deve ser armazenada em cache;
 	 - Regra de Negocio(*Regras a serem seguidas*)
-		 - [ ] Cada agendamento deve durar 1h exatamente;
+		 - [X] Cada agendamento deve durar 1h exatamente;
 		 - [ ] Os agendamentos devem estar disponíveis entre as 8h às 18h (Primeiro as 8h, último às 17h)
-		 - [ ] O usuário não pode agendar em um horário já ocupado.
+		 - [X] O usuário não pode agendar em um horário já ocupado.
 		 - [ ] O usuário não pode agendar em um horário que já passou;
 		 - [ ] O usuário não pode agendar serviços consigo mesmo;
